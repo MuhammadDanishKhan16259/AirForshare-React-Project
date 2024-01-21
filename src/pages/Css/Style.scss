@@ -1,0 +1,23 @@
+$white: #fff;
+$light-color: #4a4a4a;
+.logo {
+  width: 100%;
+
+  img {
+    width: 100px;
+    cursor: pointer;
+    &:active {
+      opacity: 0.2;
+    }
+  }
+}
+.menu-bar {
+  ul {
+    display: flex;
+    gap: 40px;
+    li {
+      list-style-type: none;
+      color: $light-color;
+    }
+  }
+}
